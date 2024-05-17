@@ -1,11 +1,11 @@
 # Query Hub
 This project is simple clone of the popular question and answer website quora named as **Query Hub**. 
-#### Functionalities:
-  - 1.Login into the application with google account
-  - 2.Add questions and answer
-  - 3.Logout
+### Functionalities:
+1. Login into the application with google account
+2. Add questions and answer
+3. Logout
   
-#### Technologies used: 
+### Technologies used: 
   * **React** — for Front End
   * **Redux** — for State Management Tools
   * **Firebase** — for Back End (For auth)
