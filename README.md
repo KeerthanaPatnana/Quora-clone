@@ -1,5 +1,5 @@
 # Query Hub
-This project is simple clone of the popular question and answer website quora named as **Query Hub**. 
+This project is simple clone of the popular question and answer website quora
 ### Functionalities:
 1. Login into the application with google account
 2. Add questions and answer
