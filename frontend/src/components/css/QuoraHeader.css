@@ -1,0 +1,217 @@
+.qHeader {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+    box-shadow: 2px 3px 6px rgba(187, 187, 187, 0.5);
+    justify-content: center;
+    padding: 3px;
+}
+
+.qHeader-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qHeader-logo>img {
+    height: 70px !important;
+    object-fit: contain;
+    float: left;
+    background-color: black;
+    flex: 1;
+}
+
+.qHeader-icons {
+    display: flex;
+}
+
+.qHeader-icon {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.qHeader-icon:hover {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.qHeader-icon>.MuiSvgIcon-root {
+    color: gray;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.qHeader-icon:hover>.MuiSvgIcon-root {
+    color: #000;
+}
+
+.qHeader-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.qHeader-input>input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+}
+
+.qHeader-input>.MuiSvgIcon-root {
+    color: gray;
+}
+
+.qHeader-avatar {
+    cursor: pointer;
+}
+
+.qHeader-Rem {
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
+}
+
+.qHeader-Rem>.MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.qHeader-Rem>.MuiSvgIcon-root:hover {
+    color: #000;
+}
+
+.qHeader-Rem>.MuiButton-root {
+    color: white;
+    background: #222;
+    text-transform: inherit;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.qHeader-Rem>.MuiButton-root:hover {
+    color: #222;
+    background: rgb(214, 214, 214);
+}
+
+.modal-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.modal-title>h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.modal-title>h5:hover {
+    color: #b92b27;
+}
+
+.modal-info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal-info>p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.modal-info>.modal-scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.modal-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.modal-field>.modal-fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.modal-field>.modal-fieldLink>input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.modal-buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.modal-buttons>.cancel {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.modal-buttons>.cancel:hover {
+    color: red;
+}
+
+.modal-buttons>.add {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.modal-buttons>.add:hover {
+    background-color: #eee;
+    color: #222;
+}
+
+@media only screen and (max-width: 600px) {
+    .qHeader-icons {
+        display: none;
+    }
+
+    .qHeader-input {
+        display: none;
+    }
+}
