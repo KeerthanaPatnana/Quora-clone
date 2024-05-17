@@ -1,10 +1,16 @@
-# Quora-clone
-
-This project is build using below technologies 
-React — for Front End
-Redux — for State Management Tools
-Firebase — for Back End (For auth)
-Material-UI — for Icons
+# Query Hub
+This project is simple clone of the popular question and answer website quora. 
+Functionalities:
+  Login into the application qith google account
+  Add questions and answer
+  Logout
+  
+Technologies used: 
+  React — for Front End
+  Redux — for State Management Tools
+  Firebase — for Back End (For auth)
+  Material-UI — for Icons
+  MongoDB (MongoDB Atlas cloud instance) - for storage
 
 
 https://github.com/KeerthanaPatnana/Quora-clone/assets/48316504/af674375-8600-4066-ac46-c58fc4c20a5e
