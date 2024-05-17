@@ -2,9 +2,9 @@
 The **Query Hub** project is a simplified version of Quora, a well-known question-and-answer platform. It's built using a variety of technologies and offers several key features.
 
 ### Key Features:
-1. User Authentication: Users can log into the application using their Google accounts.
-2. Question and Answer Functionality: Users can post questions and provide answers to existing questions.
-3. Logout: Users can securely log out of the application.
+* **_User Authentication_**: Users can log into the application using their Google accounts.
+* **_Question and Answer_**: Users can post questions and provide answers to existing questions.
+* **_Logout_**: Users can securely log out of the application.
 
 ### Technologies Used:
 1. **React**: This JavaScript library is used for building the user interface of the application.
